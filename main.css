@@ -1,0 +1,86 @@
+@keyframes example {
+  from {background-color: grey;}
+  to {background-color: #D3D3D3;}
+}
+body {
+  background-color: 	#D3D3D3;
+}
+.phaute {
+animation-name: example;
+animation-duration: 5s;
+position : absolute ;
+width: 400px;
+height: 170px;
+border:3px grey solid;
+left : 100px;
+top : 300px ;
+
+
+}
+
+.pbasse{
+animation-name: example;
+animation-duration: 5s;
+position: absolute;
+width: 400px;
+height: 220px;
+border:3px grey solid;
+right: 100px ;
+top: 300px;
+}
+
+.des{
+width: 15px;
+height: 15px;
+}
+
+.dés{
+
+position: absolute;
+margin-left: 10px;
+left: 400px ;
+top: 120px;
+}
+
+.yah{
+position: absolute;
+width: 15%;
+left: 540px;
+top : 20px;
+}
+
+.yah2 {
+position: absolute;
+width: 5%;
+left: 480px;
+top : 20px;
+}
+
+
+
+
+input {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 10px;
+  color:black;
+  border: none;
+  animation-name: example;
+  animation-duration: 4s;
+  border-bottom: 2px solid grey;
+
+  background-color: #D3D3D3;
+
+}
+
+.in2 {
+  position: absolute;
+  left : 145px;
+  color:#D3D3D3;
+  }
+.in2:hover {
+  color: black;
+}
+
+
